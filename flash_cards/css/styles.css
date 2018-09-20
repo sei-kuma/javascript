@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ccc;
+}
+
+.container  {
+    margin: 60px auto 0;
+    width: 500px;
+}
+
+#card {
+    height: 120px;
+    line-height: 120px;
+    width: 500px;
+    text-align: center;
+    background: white;
+    font-size: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btn {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 250px;
+    text-align: center;
+    margin: 20px auto 0;
+    background: #00BFFF;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 4px 0 #1E90FF;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+#btn:active {
+    margin: 23px auto 0;
+    box-shadow: 0 1px 0 #1E90FF;
+}
