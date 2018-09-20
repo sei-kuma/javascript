@@ -1,0 +1,14 @@
+body {
+    font-family: 'Garamond', serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#target {
+    font-size: 50px;
+}
+
+.info {
+    font-size: 18px;
+    color: #C0C0C0;
+}
